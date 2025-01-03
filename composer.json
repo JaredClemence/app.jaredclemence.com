@@ -7,7 +7,6 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
-        "jaredclemence/imap": "^1.0.0",
         "laravel/framework": "^10.10",
         "laravel/jetstream": "^4.3",
         "laravel/sanctum": "^3.3",
@@ -66,11 +65,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-	    {
-		    "type": "vcs",
-		    "url": "../imap"
-	    }
-    ]
+    "prefer-stable": true
 }
