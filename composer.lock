@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ab8085182bcdbc27c1f0056c14175d0",
+    "content-hash": "52cc0351d99bb0701404c47802ebbf41",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1160,11 +1160,17 @@
         },
         {
             "name": "jaredclemence/imap",
-            "version": "v1.0.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "../imap",
-                "reference": "94a1de30a8c4d114864918d941f6eb528974997f"
+                "url": "https://github.com/JaredClemence/imap.git",
+                "reference": "c080a047603035178f0d957a77e57c3f5eafa5e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JaredClemence/imap/zipball/c080a047603035178f0d957a77e57c3f5eafa5e2",
+                "reference": "c080a047603035178f0d957a77e57c3f5eafa5e2",
+                "shasum": ""
             },
             "type": "library",
             "autoload": {
@@ -1182,7 +1188,11 @@
                 }
             ],
             "description": "A custom IMAP library.",
-            "time": "2025-01-02T04:54:15+00:00"
+            "support": {
+                "source": "https://github.com/JaredClemence/imap/tree/1.0.0",
+                "issues": "https://github.com/JaredClemence/imap/issues"
+            },
+            "time": "2025-01-03T06:08:04+00:00"
         },
         {
             "name": "laravel/fortify",
