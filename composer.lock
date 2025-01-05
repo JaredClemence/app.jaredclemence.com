@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52cc0351d99bb0701404c47802ebbf41",
+    "content-hash": "df64bc89d84e4adc2f6dc90352eb0386",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1160,7 +1160,7 @@
         },
         {
             "name": "jaredclemence/imap",
-            "version": "1.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JaredClemence/imap.git",
@@ -1189,7 +1189,7 @@
             ],
             "description": "A custom IMAP library.",
             "support": {
-                "source": "https://github.com/JaredClemence/imap/tree/1.0.0",
+                "source": "https://github.com/JaredClemence/imap/tree/v2.0.1",
                 "issues": "https://github.com/JaredClemence/imap/issues"
             },
             "time": "2025-01-03T06:08:04+00:00"
