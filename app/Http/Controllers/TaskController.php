@@ -31,10 +31,11 @@ class TaskController extends Controller
     {
 	    $validated = $request->validate([
 	    	'name'=>'required|string|max:255',
+                'client_number'=>'required|string|max:10',
 		'description'=>'nullable|string',
 		'puppy_points'=>'required|integer|min:1|max:10',
 		'severity'=>'required|integer|min:1|max:10',
-		'deadline'=>'requied|date',
+		'deadline'=>'required|date',
 	    ]);
 
 	    Task::create($validated);
@@ -64,6 +65,7 @@ class TaskController extends Controller
     {
         $validated = $request->validate([
             'name' => 'required|string|max:255',
+            'client_number'=>'required|string|max:10',
             'description' => 'nullable|string',
             'puppy_points' => 'required|integer|min:1|max:10',
             'severity' => 'required|integer|min:1|max:10',
